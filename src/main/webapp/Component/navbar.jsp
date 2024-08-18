@@ -34,7 +34,7 @@
                         <a class="nav-link active" href="user_appointment.jsp">APPOINTMENT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="user_appointment.jsp">VIEW APPOINTMENT</a>
+                        <a class="nav-link active" href="view_appointment.jsp">VIEW APPOINTMENT</a>
                     </li>
 
                     <div class="btn-group">

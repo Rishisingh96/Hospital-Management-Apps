@@ -36,7 +36,7 @@
 								class="fas fa-key"></i> Change Password
 						</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item text-danger" href="adminLogout">
+						<li><a class="dropdown-item text-danger" href="AdminLogout">
 								<i class="fas fa-sign-out-alt"></i> Logout
 						</a></li>
 					</ul>

@@ -52,9 +52,7 @@ public class Appointmentdao {
 	public List<Appointment> getAllAppointmentByLoginUser(int userId) {
 		List<Appointment> list = new ArrayList<Appointment>();
 		Appointment ap = null;
-
 		try {
-
 			String sql = "select * from appointment where userId=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, userId);
@@ -83,14 +81,14 @@ public class Appointmentdao {
 
 		return list;
 	}
-	/*
+	
 	public List<Appointment> getAllAppointmentByDoctorLogin(int doctorId) {
 		List<Appointment> list = new ArrayList<Appointment>();
 		Appointment ap = null;
 
 		try {
 
-			String sql = "select * from appointment where doctor_id=?";
+			String sql = "select * from appointment where doctorId=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, doctorId);
 
@@ -118,7 +116,7 @@ public class Appointmentdao {
 
 		return list;
 	}
-
+	
 	public Appointment getAppointmentById(int id) {
 
 		Appointment ap = null;
@@ -153,11 +151,11 @@ public class Appointmentdao {
 
 		return ap;
 	}
-
+	
 	public boolean updateCommentStatus(int id, int doctId, String comm) {
 		boolean f = false;
 		try {
-			String sql = "update appointment set status=? where id=? and doctor_id=?";
+			String sql = "update appointment set status=? where id=? and doctorId=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, comm);
 			ps.setInt(2, id);
@@ -174,6 +172,7 @@ public class Appointmentdao {
 
 		return f;
 	}
+
 
 	public List<Appointment> getAllAppointment() {
 		List<Appointment> list = new ArrayList<Appointment>();
@@ -207,6 +206,6 @@ public class Appointmentdao {
 		}
 
 		return list;
-	}   */
+	}   
 
 }

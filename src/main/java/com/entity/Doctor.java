@@ -9,22 +9,12 @@ public class Doctor {
 	private String email;
 	private String mobNo;
 	private String password;
-	/**
-	 * 
-	 */
+	
 	public Doctor() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	/**
-	 * @param fullName
-	 * @param dob
-	 * @param qualification
-	 * @param specialist
-	 * @param email
-	 * @param mobNo
-	 * @param password
-	 */
+	
 	public Doctor(String fullName, String dob, String qualification, String specialist, String email, String mobNo,
 			String password) {
 		super();
@@ -98,7 +88,4 @@ public class Doctor {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
-	
 }

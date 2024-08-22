@@ -52,6 +52,7 @@
 	<c:if test="${empty userObj }">
 		<c:redirect url="user_login.jsp"></c:redirect>
 	</c:if>
+	
 	<%@include file="Component/navbar.jsp"%>
 
 	<div class="container-fluid backImg p-5">

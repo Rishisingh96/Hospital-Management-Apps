@@ -32,11 +32,11 @@
 						<i class="fa-solid fa-user-large me-2"></i> ${adminObj.fullName}
 					</button>
 					<ul class="dropdown-menu dropdown-menu-end">
-						<li><a class="dropdown-item" href="changePass.jsp"> <i
+						<li><a class="dropdown-item" href="change_password.jsp"> <i
 								class="fas fa-key"></i> Change Password
 						</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item text-danger" href="AdminLogout">
+						<li><a class="dropdown-item text-danger" href="adminLogout">
 								<i class="fas fa-sign-out-alt"></i> Logout
 						</a></li>
 					</ul>

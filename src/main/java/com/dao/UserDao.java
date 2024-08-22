@@ -59,7 +59,7 @@ public class UserDao {
 	}
 	  
 	
-	/*
+	
 	  public boolean checkOldPassword(int userid, String oldPassword) {
 		boolean f = false;
 
@@ -82,8 +82,8 @@ public class UserDao {
 	}
 
 	  
-	 */
-	/*
+	 
+	
 	 public boolean changePassword(int userid, String newPassword) {
 		boolean f = false;
 
@@ -105,6 +105,6 @@ public class UserDao {
 		return f;
 	}
 	  
-	 */
+	 
 
 }

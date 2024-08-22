@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.jsp">HOME</a>
+                    <a class="nav-link active" href="home.jsp">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="patient.jsp">PATIENT</a>
@@ -31,12 +31,12 @@
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                         <li>
-                            <a class="dropdown-item" href="../doctorProfile.jsp">
+                            <a class="dropdown-item" href="edit_profile.jsp">
                                 <i class="fas fa-user"></i> Profile
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="../changepassword.jsp">
+                            <a class="dropdown-item" href="changePassword.jsp">
                                 <i class="fas fa-cog"></i> change Password
                             </a>
                         </li>

@@ -44,7 +44,7 @@
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                                <a class="dropdown-item" href="changePass.jsp">
+                                <a class="dropdown-item" href="change_password.jsp">
                                     <i class="fas fa-key"></i> Change Password
                                 </a>
                             </li>

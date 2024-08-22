@@ -21,8 +21,8 @@
 	<%@include file="navbar.jsp"%>
 	<p class="text-center fs-3">Doctor Dashboard</p>
 
-	<%-- <%
-	Doctor d = (Doctor) session.getAttribute("doctObj");
+	 <%
+	Doctor d = (Doctor) session.getAttribute("doctorObj");
 	DoctorDao dao = new DoctorDao(DBConnect.Connection());
 	%>
 	<div class="container p-5">
@@ -52,6 +52,6 @@
 			</div>
 
 		</div>
-	</div> --%>
+	</div> 
 </body>
 </html>

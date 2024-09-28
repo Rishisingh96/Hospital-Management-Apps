@@ -17,7 +17,6 @@
 		<c:redirect url="../doctor_login.jsp"></c:redirect>
 	</c:if>
 
-
 	<%@include file="navbar.jsp"%>
 
 	<div class="container p-4">
@@ -40,7 +39,6 @@
 								<label>Enter New Password</label> <input type="text"
 									name="newPassword" class="form-control" required>
 							</div>
-
 							<div class="mb-3">
 								<label>Enter Old Password</label> <input type="text"
 									name="oldPassword" class="form-control" required>
